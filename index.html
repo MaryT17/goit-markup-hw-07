@@ -8,8 +8,9 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <header class="d-flex header">
-            <div class="d-flex">
+        <header class="d-flex header desktop-nav">
+        <div class="container header-container">
+            <div class="d-flex header-links">
                 <a href="" class="logo link"> <span class="logo-web">Web</span><span class="logo-studio-nav">studio</span> </a>
                 <nav>
                     <ul class="list">
@@ -25,7 +26,7 @@
                     </ul>
                 </nav>
             </div>
-            <ul class="list">
+            <ul class="list header header-contact">
                 <li>
                     <a href="" class="link contacts">info@devstudio.com </a>
                 </li>
@@ -33,6 +34,7 @@
                     <a href="" class="link contacts">+11 (000) 111-11-11 </a>
                 </li>
             </ul>
+        </div>
         </header>
 
         <main>
@@ -96,7 +98,8 @@
             </section>
 
             <section class="about section">
-                <ul class="list">
+                <div class="container">
+                <ul class="list service">
                     <li>
                         <div class="about-icon">
                             <svg width="64" height="64">
@@ -134,25 +137,29 @@
                         <p class="p-dark">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
                 </ul>
+                </div>
             </section>
-            <section class="section what-we-do">
-                <h2 class="section-title">what are we doing</h2>
-                <ul class="list">
-                    <li>
-                        <img src="images/what-we-do-1.jpg" alt="Computer" />
-                    </li>
-                    <li>
-                        <img src="images/what-we-do-2.jpg" alt="WhatsApp" />
-                    </li>
-                    <li>
-                        <img src="images/what-we-do-3.jpg" alt="Phone " />
-                    </li>
-                </ul>
+            <section class="what-we-do section">
+                <div class="container">
+                    <h2 class="section-title">what are we doing</h2>
+                    <ul class="list">
+                        <li>
+                            <img src="images/what-we-do-1.jpg" alt="Computer" />
+                        </li>
+                        <li>
+                            <img src="images/what-we-do-2.jpg" alt="WhatsApp" />
+                        </li>
+                        <li>
+                            <img src="images/what-we-do-3.jpg" alt="Phone " />
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <section class="team section">
+            <div class="container">
                 <h2 class="section-title">Our Team</h2>
-                <ul class="list">
+                <ul class="list team-members">
                     <li>
                         <img src="images/profile-1.jpg" alt="Mark Guerrero" />
                         <div class="team-caption">
@@ -274,6 +281,7 @@
                                 </div>
                     </li>
                 </ul>
+            </div>
             </section>
 
             <section class="customers">
@@ -414,6 +422,11 @@
             </div>
             
         </footer>
+        <script
+            defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
         <script type="text/javascript" src="./js/modal.js"></script>
     </body>
 </html>
